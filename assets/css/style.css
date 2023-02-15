@@ -454,6 +454,7 @@ textarea {
   display: flex;
   gap: var(--mr-2);
   font-size: 1.5rem;
+  align-items: center;
 }
 
 .footer__social-link {
