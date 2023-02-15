@@ -362,7 +362,17 @@ img {
 
 .projects__image {
   display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
+}
+
+.projects__image img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 6px 11px 13px 0 #0000002e;
 }
 
 .projects__image video {
@@ -372,14 +382,23 @@ img {
   border-radius: 5px;
   box-shadow: 6px 11px 13px 0 #0000002e;
 }
+.projects__image img:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
 
 .projects__image video:hover{
   transition: all .2s ease-in-out;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
+.projects__image .video3{
+  width: 300px;
+}
+
+
 .projects__info {
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .projects__buttons {
