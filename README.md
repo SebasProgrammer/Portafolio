@@ -10,11 +10,11 @@ Desplegado en Netlify: https://sebastian-arana-portafolio.netlify.app
 ## Portaflio sections ##
 
 > Inicio
-* Sobre mí
+> Sobre mí
   * Conocimiento
   * Habilidades
-* Proyectos
-* Contáctame
+> Proyectos
+> Contáctame
 
 ## ¿Qué se utilizó? ##
 
