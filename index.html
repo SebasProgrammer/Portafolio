@@ -95,49 +95,48 @@
 
         <div class="about__container grid--container">
           <p class="about__description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
-            incidunt aut distinctio maxime recusandae. Velit exercitationem
-            ducimus cupiditate corrupti eveniet soluta accusamus quasi,
-            suscipit, vitae optio, officiis rerum cumque numquam.
+            Soy un desarrollador de software que le impulsa crear nuevas aplicaciones que ofrezcan servicios donde ayuden a los usuarios. Además, soy un estudiante interesado en el campo de visión computacional y ciencia de datos.
           </p>
 
           <div class="about__skills grid--container">
+            <h3>Conocimientos</h3>
             <div class="about__cards">
               <!--Card 1 -->
               <div class="about__card">
-                <i class="bx bxl-postgresql" ></i>
-                <i class="bx bxs-data" ></i>
-                <i class="bx bxl-spring-boot" ></i>
-                <i class="bx bxl-java" ></i>
-                <i class="bx bxl-git" ></i>
+                <a href="" hreflang=""><i class="bx bxl-postgresql"></i></a>
+                <a href=""><i class="bx bxs-data"></i></a>
+                <a href=""><i class="bx bxl-spring-boot" ></i></a>
+                <a href=""><i class="bx bxl-java" ></i></a>
+                <a href=""><i class="bx bxl-git" ></i></a>
                 <h3 class="about__card-title">Back-end</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Desarrollo de APIs con su respectiva lógica de negocio y base de datos.</p>
               </div>
               <!--Card 2 -->
               <div class="about__card">
-                <i class="bx bxl-html5" ></i>
-                <i class="bx bxl-javascript" ></i>
-                <i class="bx bxl-css3"></i>
-                <i class="bx bxl-typescript" ></i>
-                <i class="bx bxl-angular" ></i>
-                <i class= "bx bxl-netlify" ></i>
-                <i class="bx bxl-nodejs" ></i>
+                <a href=""><i class="bx bxl-html5" ></i></a>
+                <a href=""><i class="bx bxl-javascript" ></i></a>
+                <a href=""><i class="bx bxl-css3"></i></a>
+                <a href=""><i class="bx bxl-typescript" ></i></a>
+                <a href=""><i class="bx bxl-angular" ></i></a>
+                <a href=""><i class= "bx bxl-netlify" ></i></a>
+                <a href=""><i class="bx bxl-nodejs" ></i></a>
                 <h3 class="about__card-title">Front-end</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Desarrollo de diseño de aplicaciones web responsivas que facilita la interacción con los usuarios.</p>
               </div>
               <!--Card 3 -->
               <div class="about__card">
-                <i class="bx bxl-python" ></i>
-                
+                <a href=""><i class="bx bxl-python" ></i></a>
                 <h3 class="about__card-title">Ciencia de datos y machine learning</h3>
                 <p>Creación de modelos predictivos y algoritmos de machine learning usando librerías como Numpy, Seaborn, Matplotlib, Pytorch, Keras y Tensorflow</p>
               </div>
               <!--Card 4 -->
               <div class="about__card">
-                <i class="bx bxl-c-plus-plus" ></i>
-                <i class="bx bxl-visual-studio" ></i>
+                <a href=""><i class="bx bxl-c-plus-plus" ></i></a>
+                <a href=""><i class="bx bxl-visual-studio" ></i></a>
                 <h3 class="about__card-title">Programación competitiva</h3>
-                <p>Algoritmo y Estructura de datos.</p>
+                <p>Practico algoritmos y estructuras de datos en pagínas como Hackerank, Codeforces y
+                  Uva judge.
+                </p>
               </div>
             </div>
             
@@ -367,8 +366,12 @@
 
       <p class="footer__copy">&copy; 2023, Todos los derechos reservados</p>
     </footer>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script>
+      window.onbeforeunload = function() {
+        window.scrollTo(0, 0);
+      };
       //movimiento de imagenes
       let image = document.getElementById('pokemon');
       let images = ['./assets/img/squirtle.jpg', './assets/img/pikachu.png', './assets/img/charizard.jpg', './assets/img/bulbasour.jpg'];
