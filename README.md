@@ -21,5 +21,5 @@ Desplegado en Netlify: https://sebastian-arana-portafolio.netlify.app
 
 ## ¿Qué metodología se utilizó? ##
 
-* Para el html se utilizó una estructura semántica
-* Para el css se utilizó la metodología BEM
+* Para el html se utilizó una **estructura semántica**.
+* Para el css se utilizó la **metodología BEM**.
