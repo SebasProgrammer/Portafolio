@@ -83,6 +83,10 @@ body {
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 }
 
+h1,h2,h3{
+  color: white;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -304,9 +308,9 @@ img {
 }
 
 /* ============= About ============= */
-.about {
+/* .about {
   background-color: #fafafa;
-}
+} */
 
 .about__description {
   text-align: center;
@@ -354,6 +358,7 @@ img {
 /* ============= Projects ============= */
 .projects__container {
   gap: 2rem;
+  vertical-align: middle;
 }
 
 .projects__inner {
@@ -373,6 +378,12 @@ img {
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 6px 11px 13px 0 #0000002e;
+}
+
+#pokemon{
+  box-shadow: 6px 6px 6px 0 #0000002e;
+  width: 220px;
+  height: 200px;
 }
 
 .projects__image video {
@@ -397,15 +408,19 @@ img {
   padding: 3rem;
 }
 
+.projects__info .projects__description{
+  color: #777;
+  text-align: justify;
+}
+
 .projects__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  width: 100%;
 }
 
 .projects__button {
   padding: .75rem 1.5rem;
   font-size: var(--smaller-font-size);
+  background-color: #e0e0e0;
 }
 
 /* ============= Contact ============= */
@@ -563,6 +578,10 @@ textarea {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
+  .projects__image video:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -638,7 +657,7 @@ textarea {
   }
 
   .about__skills {
-    grid-template-columns: 1fr .5fr;
+    grid-template-rows: auto;
     gap: 2rem;
   }
 
@@ -729,6 +748,11 @@ textarea {
   .home__buttons button{
     font-size: 24px;
     font-family: sans-serif;
+  }
+
+  .projects__image video:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
   }
   
 }

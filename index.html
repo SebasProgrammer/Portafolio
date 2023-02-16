@@ -84,7 +84,8 @@
           </div>
 
           <div class="home__buttons">
-            <button class="btn btn--primary" type="button" onclick="window.open('assets/files/cv.pdf', '_blank');"><strong>Descarga CV</strong></button>
+            <button class="btn btn--primary" type="button" onclick="window.open('assets/files/cv.pdf', '_blank');">
+              <strong>Descarga CV</strong></button>
           </div>
         </div>
       </section>
@@ -123,7 +124,15 @@
                 <h3 class="about__card-title">JavaScript</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
               </div>
+              <!--Card 4 -->
+              <div class="about__card">
+                <i class="bx bxl-javascript"></i>
+
+                <h3 class="about__card-title">JavaScript</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
+            
 
             <div class="about__tags">
               <h3 class="about__tags-title">Habilidades</h3>
@@ -162,10 +171,7 @@
 
                 <div class="projects__buttons">
                   <button class="btn projects__button" type="button">
-                    VER DEMO
-                  </button>
-                  <button class="btn projects__button" type="button">
-                    VER CÓDIGO
+                    <strong>Repositorio</strong>
                   </button>
                 </div>
               </div>
@@ -186,10 +192,7 @@
 
                 <div class="projects__buttons">
                   <button class="btn projects__button" type="button">
-                    VER DEMO
-                  </button>
-                  <button class="btn projects__button" type="button">
-                    VER CÓDIGO
+                    <strong>Repositorio</strong>
                   </button>
                 </div>
               </div>
@@ -199,7 +202,7 @@
           <div class="projects__project">
             <div class="projects__inner grid--container">
               <div class="projects__image">
-                <img src="assets/img/pokemones.jpg" alt="project 3" />
+                <img id="pokemon" alt="project 3" />
               </div>
 
               <div class="projects__info">
@@ -210,10 +213,7 @@
 
                 <div class="projects__buttons">
                   <button class="btn projects__button" type="button">
-                    VER DEMO
-                  </button>
-                  <button class="btn projects__button" type="button">
-                    VER CÓDIGO
+                    <strong>Repositorio</strong>
                   </button>
                 </div>
               </div>
@@ -234,10 +234,7 @@
 
                 <div class="projects__buttons">
                   <button class="btn projects__button" type="button">
-                    VER DEMO
-                  </button>
-                  <button class="btn projects__button" type="button">
-                    VER CÓDIGO
+                    <strong>Repositorio</strong>
                   </button>
                 </div>
               </div>
@@ -365,6 +362,15 @@
     </footer>
 
     <script>
+      //movimiento de imagenes
+      let image = document.getElementById('pokemon');
+      let images = ['./assets/img/squirtle.jpg', './assets/img/pikachu.png', './assets/img/charizard.jpg', './assets/img/bulbasour.jpg'];
+      setInterval(function(){
+        let random = Math.floor(Math.random()*4);
+        image.src = images[random];
+      }, 800);
+
+      // FORMULARIO
       const formulario = document.querySelector('#form')
       const sendForm = document.querySelector('#mail')
 
