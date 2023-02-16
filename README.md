@@ -1,6 +1,6 @@
 # Portafolio 
 
-* Primer portafolio con buen diseño y responsivo!! *
+**Primer portafolio con buen diseño y responsivo!!**
 
 Desplegado en Netlify: https://sebastian-arana-portafolio.netlify.app  
 
