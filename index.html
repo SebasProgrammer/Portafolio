@@ -367,11 +367,14 @@
       <p class="footer__copy">&copy; 2023, Todos los derechos reservados</p>
     </footer>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script>
-      window.onbeforeunload = function() {
-        window.scrollTo(0, 0);
-      };
+      if (history.scrollRestoration) {
+        history.scrollRestoration = 'manual';
+      } else {
+          window.onbeforeunload = function () {
+              window.scrollTo(0, 0);
+          }
+      }
       //movimiento de imagenes
       let image = document.getElementById('pokemon');
       let images = ['./assets/img/squirtle.jpg', './assets/img/pikachu.png', './assets/img/charizard.jpg', './assets/img/bulbasour.jpg'];
