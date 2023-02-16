@@ -12,3 +12,14 @@ Desplegado en Netlify: https://sebastian-arana-portafolio.netlify.app
   * Habilidades
 * Proyectos
 * Contáctame
+
+## ¿Qué se utilizó? ##
+
+* HTML5
+* CSS3
+* Javascript
+
+## ¿Qué metodología se utilizó? ##
+
+* Para el html se utilizó una estructura semántica
+* Para el css se utilizó la metodología BEM
