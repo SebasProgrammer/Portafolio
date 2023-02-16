@@ -322,7 +322,7 @@ img {
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  grid-template-columns: repeat(2,1fr);
   gap: 2rem;
 }
 
@@ -331,6 +331,10 @@ img {
   padding: 4rem 2rem 2rem;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+}
+
+.about__card-title{
+  color: black;
 }
 
 .about__card .bx {
@@ -578,6 +582,12 @@ textarea {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
+  .about__cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+  }
+
   .projects__image video:hover{
     transition: all .2s ease-in-out;
     transform: scale(1.05);
