@@ -6,5 +6,7 @@
 
 * Inicio
 * Sobre mí
+  * Conocimiento
+  * Habilidades
 * Proyectos
 * Contáctame
