@@ -9,7 +9,7 @@ Desplegado en Netlify: https://sebastian-arana-portafolio.netlify.app
 
 ## Portaflio sections ##
 
-* Inicio
+> Inicio
 * Sobre mí
   * Conocimiento
   * Habilidades
