@@ -272,6 +272,25 @@ img {
   align-items: center;
 }
 
+.actual_work{
+  font-size: 30px;
+  background: -webkit-linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5, #23d5ab);
+  background-size: 250%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  text-align: center;
+}
+
+.logo_work{
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.netlify:hover{
+  background-color: black;
+}
+
 @keyframes gradient {
   0% {
       background-position: 0 50%
